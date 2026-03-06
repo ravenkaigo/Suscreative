@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Sus Creative Studio — Brand identity, visual design, and creative direction for businesses that want to stand out." />
+  <title>Sus Creative Studio</title>
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVIGATION
+  ============================================================ -->
+  <nav class="nav" id="nav" aria-label="Main navigation">
+    <div class="container nav__inner">
+
+      <!-- Logo -->
+      <a href="#" class="nav__logo" aria-label="Sus Creative Studio home">
+        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect width="36" height="36" fill="#000"/>
+          <!-- S letterform — geometric 2D -->
+          <path d="M10 11h16v5H15v4h11v5H10v-5h11v-4H10z" fill="#fff"/>
+        </svg>
+        <span class="nav__logo-text">
+          Sus Creative
+          <span>Studio</span>
+        </span>
+      </a>
+
+      <!-- Links -->
+      <ul class="nav__links" role="list">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#process">Process</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <!-- CTA + mobile toggle -->
+      <a href="#contact" class="nav__cta" aria-label="Start a project">Start a project</a>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+    </div>
+  </nav>
+
+
+  <!-- ============================================================
+       HERO
+  ============================================================ -->
+  <section class="hero" id="hero" aria-labelledby="hero-headline">
+
+    <div class="container hero__content">
+
+      <!-- Logo mark -->
+      <svg class="hero__logo-mark" viewBox="0 0 88 88" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <rect width="88" height="88" fill="#111"/>
+        <rect x="1" y="1" width="86" height="86" stroke="#333" stroke-width="1" fill="none"/>
+        <!-- Large S mark -->
+        <path d="M22 27h44v13H35v10h31v13H22V50h31V40H22z" fill="#fff"/>
+      </svg>
+
+      <p class="hero__label">Est. 2024 · Creative Studio</p>
+
+      <h1 class="hero__headline" id="hero-headline">
+        Design that <em>defines</em> your brand
+      </h1>
+
+      <p class="hero__sub">
+        Sus Creative Studio crafts bold visual identities, immersive brand experiences,
+        and purposeful design systems for forward-thinking businesses.
+      </p>
+
+      <div class="hero__actions">
+        <a href="#work" class="btn btn--primary">View our work</a>
+        <a href="#contact" class="btn btn--ghost">Start a project</a>
+      </div>
+
+    </div>
+
+    <div class="hero__scroll" aria-hidden="true">
+      <div class="hero__scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+
+  </section>
+
+
+  <!-- ============================================================
+       MARQUEE
+  ============================================================ -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <!-- Two identical sets for seamless loop -->
+      <span class="marquee__item">Brand Identity</span>
+      <span class="marquee__item">Visual Design</span>
+      <span class="marquee__item">Motion Graphics</span>
+      <span class="marquee__item">UI / UX</span>
+      <span class="marquee__item">Print Design</span>
+      <span class="marquee__item">Art Direction</span>
+      <span class="marquee__item">Creative Strategy</span>
+      <span class="marquee__item">Typography</span>
+      <span class="marquee__item">Brand Identity</span>
+      <span class="marquee__item">Visual Design</span>
+      <span class="marquee__item">Motion Graphics</span>
+      <span class="marquee__item">UI / UX</span>
+      <span class="marquee__item">Print Design</span>
+      <span class="marquee__item">Art Direction</span>
+      <span class="marquee__item">Creative Strategy</span>
+      <span class="marquee__item">Typography</span>
+    </div>
+  </div>
+
+
+  <!-- ============================================================
+       SERVICES
+  ============================================================ -->
+  <section class="section" id="services" aria-labelledby="services-title">
+    <div class="container">
+
+      <div class="services__header">
+        <div>
+          <p class="section-label">What we do</p>
+          <h2 class="section-title" id="services-title">Creative services<br>built to last</h2>
+        </div>
+        <a href="#contact" class="btn btn--ghost">All services &rarr;</a>
+      </div>
+
+      <div class="services__grid" role="list">
+
+        <article class="service-card" role="listitem">
+          <svg class="service-card__icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <circle cx="20" cy="20" r="14" stroke="white" stroke-width="1.5"/>
+            <line x1="6" y1="20" x2="34" y2="20" stroke="white" stroke-width="1.5"/>
+            <ellipse cx="20" cy="20" rx="7" ry="14" stroke="white" stroke-width="1.5"/>
+          </svg>
+          <p class="service-card__num">01</p>
+          <h3 class="service-card__title">Brand Identity</h3>
+          <p class="service-card__desc">
+            Complete brand systems — logo, color, typography, and guidelines — that communicate who you are at a glance.
+          </p>
+        </article>
+
+        <article class="service-card" role="listitem">
+          <svg class="service-card__icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect x="4" y="8" width="32" height="24" stroke="white" stroke-width="1.5"/>
+            <line x1="4" y1="16" x2="36" y2="16" stroke="white" stroke-width="1.5"/>
+            <rect x="8" y="20" width="8" height="8" stroke="white" stroke-width="1.5"/>
+          </svg>
+          <p class="service-card__num">02</p>
+          <h3 class="service-card__title">UI / UX Design</h3>
+          <p class="service-card__desc">
+            Purposeful digital interfaces — from wireframes to polished screens — focused on clarity and user delight.
+          </p>
+        </article>
+
+        <article class="service-card" role="listitem">
+          <svg class="service-card__icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <polygon points="20,4 36,32 4,32" stroke="white" stroke-width="1.5" fill="none"/>
+            <line x1="20" y1="4" x2="20" y2="32" stroke="white" stroke-width="1.5"/>
+          </svg>
+          <p class="service-card__num">03</p>
+          <h3 class="service-card__title">Art Direction</h3>
+          <p class="service-card__desc">
+            Visual strategy and creative direction for campaigns, editorial projects, and marketing materials.
+          </p>
+        </article>
+
+        <article class="service-card" role="listitem">
+          <svg class="service-card__icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect x="8" y="8" width="24" height="24" stroke="white" stroke-width="1.5"/>
+            <line x1="8" y1="20" x2="32" y2="20" stroke="white" stroke-width="1.5"/>
+            <line x1="20" y1="8" x2="20" y2="32" stroke="white" stroke-width="1.5"/>
+          </svg>
+          <p class="service-card__num">04</p>
+          <h3 class="service-card__title">Print & Packaging</h3>
+          <p class="service-card__desc">
+            Tactile design solutions — stationery, packaging, signage, and collateral — crafted for the physical world.
+          </p>
+        </article>
+
+        <article class="service-card" role="listitem">
+          <svg class="service-card__icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <circle cx="20" cy="20" r="4" fill="white"/>
+            <circle cx="20" cy="20" r="12" stroke="white" stroke-width="1.5"/>
+            <line x1="20" y1="8" x2="20" y2="32" stroke="white" stroke-width="1" stroke-dasharray="2 3"/>
+            <line x1="8" y1="20" x2="32" y2="20" stroke="white" stroke-width="1" stroke-dasharray="2 3"/>
+          </svg>
+          <p class="service-card__num">05</p>
+          <h3 class="service-card__title">Motion Design</h3>
+          <p class="service-card__desc">
+            Animated logos, explainer videos, and social content that bring your brand to life in the digital space.
+          </p>
+        </article>
+
+        <article class="service-card" role="listitem">
+          <svg class="service-card__icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M8 28 L8 12 L20 8 L32 12 L32 28 L20 36 Z" stroke="white" stroke-width="1.5" fill="none"/>
+            <line x1="8" y1="12" x2="32" y2="28" stroke="white" stroke-width="1"/>
+            <line x1="32" y1="12" x2="8" y2="28" stroke="white" stroke-width="1"/>
+          </svg>
+          <p class="service-card__num">06</p>
+          <h3 class="service-card__title">Creative Strategy</h3>
+          <p class="service-card__desc">
+            Positioning, naming, and messaging frameworks that align your visual and verbal identity for long-term impact.
+          </p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       FEATURED WORK
+  ============================================================ -->
+  <section class="section" id="work" aria-labelledby="work-title">
+    <div class="container">
+
+      <div class="work__header">
+        <div>
+          <p class="section-label">Selected work</p>
+          <h2 class="section-title" id="work-title">Projects we're<br>proud of</h2>
+        </div>
+        <a href="#contact" class="btn btn--ghost">See all work &rarr;</a>
+      </div>
+
+      <div class="work__grid">
+
+        <!-- Featured large item -->
+        <article class="work-item">
+          <div class="work-item__bg">
+            <svg class="work-item__pattern" viewBox="0 0 900 350" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect width="900" height="350" fill="#0f0f0f"/>
+              <line x1="0" y1="0" x2="900" y2="350" stroke="#222" stroke-width="1"/>
+              <line x1="900" y1="0" x2="0" y2="350" stroke="#222" stroke-width="1"/>
+              <circle cx="450" cy="175" r="120" stroke="#fff" stroke-width="1.5" fill="none"/>
+              <circle cx="450" cy="175" r="80" stroke="#444" stroke-width="1" fill="none"/>
+              <circle cx="450" cy="175" r="40" stroke="#fff" stroke-width="1" fill="none"/>
+              <line x1="330" y1="175" x2="570" y2="175" stroke="#fff" stroke-width="1"/>
+              <line x1="450" y1="55" x2="450" y2="295" stroke="#fff" stroke-width="1"/>
+            </svg>
+          </div>
+          <div class="work-item__info">
+            <p class="work-item__cat">Brand Identity</p>
+            <h3 class="work-item__title">Orbit — Spatial Tech Brand System</h3>
+          </div>
+        </article>
+
+        <article class="work-item">
+          <div class="work-item__bg">
+            <svg class="work-item__pattern" viewBox="0 0 450 280" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect width="450" height="280" fill="#0d0d0d"/>
+              <rect x="40" y="40" width="370" height="200" stroke="#222" stroke-width="1" fill="none"/>
+              <rect x="80" y="80" width="290" height="120" stroke="#fff" stroke-width="1.5" fill="none"/>
+              <rect x="120" y="110" width="210" height="60" stroke="#444" stroke-width="1" fill="none"/>
+              <line x1="40" y1="140" x2="410" y2="140" stroke="#333" stroke-width="1"/>
+            </svg>
+          </div>
+          <div class="work-item__info">
+            <p class="work-item__cat">UI / UX Design</p>
+            <h3 class="work-item__title">Vault — Finance Dashboard</h3>
+          </div>
+        </article>
+
+        <article class="work-item">
+          <div class="work-item__bg">
+            <svg class="work-item__pattern" viewBox="0 0 450 280" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect width="450" height="280" fill="#0d0d0d"/>
+              <polygon points="225,30 400,240 50,240" stroke="#fff" stroke-width="1.5" fill="none"/>
+              <polygon points="225,70 360,220 90,220" stroke="#333" stroke-width="1" fill="none"/>
+              <polygon points="225,110 320,200 130,200" stroke="#555" stroke-width="1" fill="none"/>
+              <circle cx="225" cy="140" r="15" stroke="#fff" stroke-width="1.5" fill="none"/>
+            </svg>
+          </div>
+          <div class="work-item__info">
+            <p class="work-item__cat">Art Direction</p>
+            <h3 class="work-item__title">Apex — Fashion Campaign</h3>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       ABOUT
+  ============================================================ -->
+  <section class="section" id="about" aria-labelledby="about-title">
+    <div class="container">
+      <div class="about__grid">
+
+        <!-- Visual -->
+        <div class="about__visual" aria-hidden="true">
+          <svg viewBox="0 0 320 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="320" height="320" fill="#0a0a0a"/>
+            <!-- Geometric studio mark -->
+            <rect x="40" y="40" width="240" height="240" stroke="#222" stroke-width="1"/>
+            <rect x="80" y="80" width="160" height="160" stroke="#333" stroke-width="1"/>
+            <!-- S-mark centered -->
+            <path d="M112 130 h96 v32 h-64 v28 h64 v32 h-96 v-32 h64 v-28 h-64 z" fill="#fff"/>
+          </svg>
+        </div>
+
+        <!-- Content -->
+        <div class="about__content">
+          <div>
+            <p class="section-label">About the studio</p>
+            <h2 class="section-title" id="about-title">Craft meets<br>intention</h2>
+          </div>
+          <p class="about__text">
+            Sus Creative Studio is an independent design practice focused on creating meaningful visual
+            identities for brands that want to be remembered. We believe good design is invisible when
+            it's working — it simply feels right.
+          </p>
+          <p class="about__text">
+            From early-stage startups finding their voice to established companies ready for a refresh,
+            we partner with businesses that value thoughtful, intentional craft over trends.
+          </p>
+          <div class="stats" role="list">
+            <div role="listitem">
+              <p class="stat__num">80+</p>
+              <p class="stat__label">Projects delivered</p>
+            </div>
+            <div role="listitem">
+              <p class="stat__num">4yr</p>
+              <p class="stat__label">In practice</p>
+            </div>
+            <div role="listitem">
+              <p class="stat__num">100%</p>
+              <p class="stat__label">Client satisfaction</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       PROCESS
+  ============================================================ -->
+  <section class="section" id="process" aria-labelledby="process-title" style="padding-top:0">
+    <div class="container">
+      <p class="section-label">How we work</p>
+      <h2 class="section-title" id="process-title">Our process</h2>
+
+      <div class="process__steps" role="list">
+
+        <div class="process-step" role="listitem">
+          <p class="process-step__num">01</p>
+          <h3 class="process-step__title">Discovery</h3>
+          <p class="process-step__desc">Deep-dive into your brand, market, audience, and ambitions. We ask the questions that matter.</p>
+        </div>
+
+        <div class="process-step" role="listitem">
+          <p class="process-step__num">02</p>
+          <h3 class="process-step__title">Strategy</h3>
+          <p class="process-step__desc">Define positioning, visual direction, and creative territory before a single pixel is placed.</p>
+        </div>
+
+        <div class="process-step" role="listitem">
+          <p class="process-step__num">03</p>
+          <h3 class="process-step__title">Design</h3>
+          <p class="process-step__desc">Iterative, collaborative design process with regular check-ins and transparent feedback loops.</p>
+        </div>
+
+        <div class="process-step" role="listitem">
+          <p class="process-step__num">04</p>
+          <h3 class="process-step__title">Deliver</h3>
+          <p class="process-step__desc">Production-ready files, brand guidelines, and ongoing support to keep your brand consistent.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       TESTIMONIALS
+  ============================================================ -->
+  <section class="section" id="testimonials" aria-labelledby="testimonials-title">
+    <div class="container">
+      <p class="section-label">Client feedback</p>
+      <h2 class="section-title" id="testimonials-title">What clients say</h2>
+
+      <div class="testimonials__grid" role="list">
+
+        <blockquote class="testimonial" role="listitem">
+          <div class="testimonial__stars" aria-label="5 out of 5 stars">
+            <div class="testimonial__star"></div>
+            <div class="testimonial__star"></div>
+            <div class="testimonial__star"></div>
+            <div class="testimonial__star"></div>
+            <div class="testimonial__star"></div>
+          </div>
+          <p class="testimonial__quote">
+            "Sus Creative Studio transformed our brand completely. The identity they built gave us the
+            confidence to pitch enterprise clients we'd never approached before."
+          </p>
+          <footer class="testimonial__author">
+            <p class="testimonial__name">Aria Caldwell</p>
+            <p class="testimonial__role">Founder, Dune Analytics</p>
+          </footer>
+        </blockquote>
+
+        <blockquote class="testimonial" role="listitem">
+          <div class="testimonial__stars" aria-label="5 out of 5 stars">
+            <div class="testimonial__star"></div>
+            <div class="testimonial__star"></div>
+            <div class="testimonial__star"></div>
+            <div class="testimonial__star"></div>
+            <div class="testimonial__star"></div>
+          </div>
+          <p class="testimonial__quote">
+            "Exceptional work — they really understood the vision and turned abstract ideas into
+            something beautifully tangible. Every touchpoint of our rebrand is cohesive."
+          </p>
+          <footer class="testimonial__author">
+            <p class="testimonial__name">Marco Reyes</p>
+            <p class="testimonial__role">Creative Director, Forma Studio</p>
+          </footer>
+        </blockquote>
+
+        <blockquote class="testimonial" role="listitem">
+          <div class="testimonial__stars" aria-label="5 out of 5 stars">
+            <div class="testimonial__star"></div>
+            <div class="testimonial__star"></div>
+            <div class="testimonial__star"></div>
+            <div class="testimonial__star"></div>
+            <div class="testimonial__star"></div>
+          </div>
+          <p class="testimonial__quote">
+            "The process was seamless. They pushed back when we needed it, guided us with expertise,
+            and delivered a brand system we'll be proud of for years."
+          </p>
+          <footer class="testimonial__author">
+            <p class="testimonial__name">Lena Park</p>
+            <p class="testimonial__role">CEO, Horizon Labs</p>
+          </footer>
+        </blockquote>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       CTA
+  ============================================================ -->
+  <section class="section" id="contact" aria-labelledby="cta-title">
+    <div class="container">
+      <div class="cta-banner">
+        <p class="section-label" style="justify-content:center">Ready to start?</p>
+        <h2 class="cta-banner__title" id="cta-title">Let's build something great together</h2>
+        <p class="cta-banner__sub">Tell us about your project and we'll get back to you within 24 hours.</p>
+        <div class="hero__actions">
+          <a href="mailto:hello@suscreative.studio" class="btn btn--primary">hello@suscreative.studio</a>
+          <a href="#about" class="btn btn--ghost">Learn more about us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="footer" aria-label="Site footer">
+    <div class="container">
+
+      <div class="footer__grid">
+
+        <div class="footer__brand">
+          <div class="footer__brand-logo">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect width="32" height="32" fill="#111"/>
+              <path d="M8 10h16v5H13v2h11v5H8v-5h11v-2H8z" fill="#fff"/>
+            </svg>
+            <span class="footer__brand-name">Sus Creative Studio</span>
+          </div>
+          <p class="footer__tagline">
+            Independent design practice crafting bold identities for brands that want to be remembered.
+          </p>
+        </div>
+
+        <div>
+          <p class="footer__col-title">Services</p>
+          <ul class="footer__links" role="list">
+            <li><a href="#services">Brand Identity</a></li>
+            <li><a href="#services">UI / UX Design</a></li>
+            <li><a href="#services">Art Direction</a></li>
+            <li><a href="#services">Print & Packaging</a></li>
+            <li><a href="#services">Motion Design</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <p class="footer__col-title">Studio</p>
+          <ul class="footer__links" role="list">
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#process">Process</a></li>
+            <li><a href="#testimonials">Clients</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <p class="footer__col-title">Contact</p>
+          <ul class="footer__links" role="list">
+            <li><a href="mailto:hello@suscreative.studio">hello@suscreative.studio</a></li>
+            <li><a href="#contact">Start a project</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer__bottom">
+        <p class="footer__copy">&copy; 2024 Sus Creative Studio. All rights reserved.</p>
+        <div class="footer__social" role="list">
+          <a href="#" aria-label="Instagram">Instagram</a>
+          <a href="#" aria-label="Behance">Behance</a>
+          <a href="#" aria-label="LinkedIn">LinkedIn</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+
+  <!-- ============================================================
+       JAVASCRIPT — Scroll nav + mobile menu
+  ============================================================ -->
+  <script>
+    // Sticky nav styling
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 40);
+    }, { passive: true });
+
+    // Mobile nav toggle (basic show/hide via inline style)
+    const toggle = document.getElementById('navToggle');
+    const navLinks = document.querySelector('.nav__links');
+    const navCta = document.querySelector('.nav__cta');
+
+    toggle.addEventListener('click', () => {
+      const expanded = toggle.getAttribute('aria-expanded') === 'true';
+      toggle.setAttribute('aria-expanded', String(!expanded));
+
+      if (!expanded) {
+        // Show links as a stacked overlay
+        navLinks.style.cssText = `
+          display: flex;
+          flex-direction: column;
+          position: fixed;
+          inset: 72px 0 0 0;
+          background: #000;
+          align-items: center;
+          justify-content: center;
+          gap: 32px;
+          z-index: 99;
+        `;
+        navLinks.querySelectorAll('a').forEach(a => {
+          a.style.fontSize = '1.2rem';
+          a.style.letterSpacing = '0.1em';
+          a.style.color = '#fff';
+        });
+      } else {
+        navLinks.removeAttribute('style');
+        navLinks.querySelectorAll('a').forEach(a => a.removeAttribute('style'));
+      }
+    });
+
+    // Close mobile menu on link click
+    navLinks.querySelectorAll('a').forEach(a => {
+      a.addEventListener('click', () => {
+        navLinks.removeAttribute('style');
+        navLinks.querySelectorAll('a').forEach(link => link.removeAttribute('style'));
+        toggle.setAttribute('aria-expanded', 'false');
+      });
+    });
+  </script>
+
+</body>
+</html>
